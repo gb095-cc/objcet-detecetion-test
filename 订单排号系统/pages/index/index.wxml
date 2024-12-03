@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="header">
+    <text class="title">点单排号系统demo</text>
+  </view>
+  
+  <button bindtap="paihao" type="primary" class="paihao-button">排号</button>
+  
+  <view class="paihao-info" wx:if="{{paihaoxinxi}}">
+    <text>{{paihaoxinxi}}</text>
+  </view>
+
+  <view class="footer">
+    <text class="footer-text">请点击排号按钮取号</text>
+  </view>
+</view>

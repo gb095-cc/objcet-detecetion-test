@@ -1,0 +1,29 @@
+<view class="container">
+  <view class="header">
+    <button class="back-button" bindtap="goBack">返回</button>
+    <text class="title">订单状态</text>
+  </view>
+
+  <view class="order-info">
+    <view class="order-item">
+      <text>您的号码是:</text>
+      <text class="highlight">{{userPaihao}}</text>
+    </view>
+    <view class="order-item">
+      <text>正在为第</text>
+      <text class="highlight">{{currentPreparing}}</text>
+      <text>号准备餐食</text>
+    </view>
+    <view class="order-item">
+      <text>预计等待时间:</text>
+      <text class="highlight">{{waitingTime}}</text>
+      <text>分钟</text>
+    </view>
+  </view>
+
+  <button bindtap="refreshStatus" class="refresh-button">刷新</button>
+
+  <view class="footer">
+    <text class="footer-text">感谢您的耐心等待！</text>
+  </view>
+</view>

@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.header {
+  width: 100%;
+  padding: 15rpx;
+  background-color: #4a90e2; /* 设置背景色 */
+  display: flex;
+  align-items: center; /* 垂直居中 */
+}
+
+.back-button {
+  background-color: transparent;
+  border: none;
+  color: white; /* 改为白色以提高可见性 */
+  font-size: 16px;
+  margin-right: 10rpx;
+}
+
+.title {
+  color: white; /* 标题颜色 */
+  font-size: 20px;
+  flex-grow: 1; /* 使标题占满剩余空间 */
+  text-align: center; /* 居中 */
+}
+
+.order-info {
+  margin-top: 30rpx;
+  padding: 20rpx;
+  background-color: #e6f7ff;
+  border-radius: 10rpx;
+  text-align: center;
+  width: 90%; /* 限制宽度 */
+}
+
+.order-item {
+  margin: 10rpx 0; /* 每个项目上下留出间距 */
+  font-size: 16px; /* 调整字体大小 */
+  color: #333; /* 调整字体颜色 */
+}
+
+.highlight {
+  font-weight: bold; /* 加粗高亮 */
+  color: #4a90e2; /* 高亮颜色 */
+}
+
+.refresh-button {
+  margin-top: 30rpx;
+  padding: 10rpx 20rpx;
+  background-color: #4a90e2;
+  color: white;
+}
+
+.footer {
+  margin-top: auto;
+  padding: 10rpx;
+}
+
+.footer-text {
+  color: #999;
+  font-size: 14px;
+}

@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 高度为视口高度 */
+  background-color: #f9f9f9; /* 背景色 */
+}
+
+.header {
+  background-color: #4a90e2; /* 头部背景色 */
+  width: 100%;
+  padding: 20rpx;
+  text-align: center;
+}
+
+.title {
+  color: white; /* 标题颜色 */
+  font-size: 28px; /* 标题字体大小 */
+}
+
+.paihao-button {
+  margin-top: 40rpx;
+  padding: 20rpx 30rpx; /* 按钮内边距 */
+  font-size: 22px; /* 按钮字体大小 */
+}
+
+.paihao-info {
+  margin-top: 30rpx;
+  padding: 15rpx; /* 内边距 */
+  background-color: #e6f7ff; /* 信息背景色 */
+  border: 1px solid #b3e0ff; /* 边框 */
+  border-radius: 10rpx; /* 圆角 */
+  font-size: 20px; /* 字体大小 */
+  color: #333; /* 字体颜色 */
+  text-align: center; /* 文本居中 */
+}
+
+.footer {
+  margin-top: auto; /* 将 footer 移到底部 */
+  padding: 10rpx;
+}
+
+.footer-text {
+  color: #999; /* 底部文本颜色 */
+  font-size: 14px; /* 底部文本大小 */
+}
